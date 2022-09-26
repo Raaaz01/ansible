@@ -36,4 +36,8 @@ Step 3.3:
 service sshd restart
 
 Step 4:
+ssh-keygen (ansible server)
+ssh-copy-id ec2-user@x.x.x.x
+
+Step 4:
 ansible-playbook -i inventory playbook.yml
